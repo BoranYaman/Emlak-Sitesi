@@ -1,0 +1,61 @@
+@{
+    ViewData["Title"] = "Hesabım";
+  }
+  @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+  }
+  
+
+<style>
+   .div{
+    font-size:22px ;
+   }
+   .input{
+    font-size:22px ;
+   }
+</style>
+<div class="card mt-4 div">
+<h2 class="card-header" style="text-align: center;">Kullanıcı Hesap Bilgileri</h2>
+<div style="width: 35em;margin-left: auto; margin-right: auto; text-align: center;padding: 3em;">
+<form asp-action="MyAccount" method="post">
+
+    <div  class="mb-3" >
+        <label for="UserName" class="form-label">Kullanıcı Adı</label>
+        <input style="text-align: center;" type="text" class="form-control" id="UserName" name="UserName" value="@Model.UserName" readonly>
+    </div>
+
+    <div  class="mb-3">
+        <label for="LastName" class="form-label">Kullanıcı Soyadı</label>
+        <input style="text-align: center;" type="text" class="form-control" id="LastName" name="LastName" value="@Model.LastName" readonly>
+    </div>
+
+    <div class="mb-3">
+        <label for="Email" class="form-label">E-Posta Adresi</label>
+        <input style="text-align: center;" type="email" class="form-control" id="Email" name="Email" value="@Model.Email" readonly>
+        @if(!Model.EmailConfirmed)
+        {
+            <span style="font-size: 18px;" class="text-danger">Kullanıcınn E-posta adresi onaylı değil. </span>
+
+        }
+        else
+        {
+            <span style="font-size: 18px;" class="text-danger">Kullanıcınn E-posta adresi onaylı. </span>
+
+        }
+    </div>
+
+    <div  class="mb-3">
+        <label for="Address" class="form-label">Kullanıcı Adresi</label>
+        <input style="text-align: center;" type="text" class="form-control" id="Address" name="Address" value="@Model.Address" readonly>
+    </div>
+
+ 
+
+    <div class="mb-3">
+        <label for="PhoneNumber" class="form-label">Telefon Numarası</label>
+        <input style="text-align: center;" type="tel" class="form-control" id="PhoneNumber" name="PhoneNumber" value="@Model.PhoneNumber" readonly>
+    </div>
+
+</form>
+</div>
+</div>

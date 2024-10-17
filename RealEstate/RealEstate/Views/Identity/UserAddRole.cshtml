@@ -1,0 +1,59 @@
+@model RealEstate.ViewModels.User.UserEditViewModel
+<style>
+    .div{
+     font-size:22px ;
+    }
+    .input{
+     font-size:22px ;
+    }
+ </style>
+ <div class="card mt-4 div">
+ <h2 class="card-header" style="text-align: center;">Hesap Bilgilerim</h2>
+ <div style="width: 35em;margin-left: auto; margin-right: auto; text-align: center;padding: 3em;">
+    <form asp-action="UserAddRole" asp-controller="Identity" method="post"> 
+ 
+     <div  class="mb-3" >
+         <label for="UserName" class="form-label">Kullanıcı Adı</label>
+         <input style="text-align: center;" type="text" class="form-control" id="UserName" name="UserName" value="@Model.UserName" readonly>
+     </div>
+ 
+     <div  class="mb-3">
+         <label for="LastName" class="form-label">Kullanıcı Soyadı</label>
+         <input style="text-align: center;" type="text" class="form-control" id="LastName" name="LastName" value="@Model.LastName" readonly>
+     </div>
+ 
+     <div class="mb-3">
+         <label for="Email" class="form-label">E-Posta Adresi</label>
+         <input style="text-align: center;" type="email" class="form-control" id="Email" name="Email" value="@Model.Email" readonly>
+      
+     </div>
+
+     <div class="card">
+        <div class="card-header">Roller</div>
+        <div class="card-body">
+            @foreach(var role in ViewBag.Roles)
+            {
+                <div class="form-check">
+                    <input type="checkbox" 
+                    class="form-check-input" 
+                     name="SelectedRoles" 
+                     value="@role"
+                     id="@role"
+                     {
+                        @(Model.SelectedRoles.Any(i => i == role)? "checked": "")
+                     }
+                     >
+                     
+                    <label for="@role" class="form-check-label">@role</label>
+                </div>
+            }   
+                <div class="card-body">
+            <button type="submit" class="btn btn-primary">Ata</button>
+     
+    </div>
+        </div>
+     </div>
+ </form>
+ </div>
+ </div>
+ 

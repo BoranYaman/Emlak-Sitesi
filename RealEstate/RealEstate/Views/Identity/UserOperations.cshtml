@@ -1,0 +1,46 @@
+@model RealEstate.ViewModels.User.UserViewModel
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Kullanıcı Listesi</h2>
+
+     <div class="card">
+     <div class="card-body">
+
+    <form method="get" asp-controller="Identity" asp-action="UserOperations" class="mb-4">
+    <h2 class="text-center mb-4 card-header">E-Posta ile ara </h2>
+
+        <div class="input-group " style="width: 50%; margin-left: auto;margin-right: auto;">
+            <input type="text" class="form-control" name="searchEmail" placeholder="E-posta ile ara..." value="@ViewData["searchEmail"]" />
+            <button type="submit" class="btn btn-primary">Ara</button>
+        </div>
+    </form>
+</div>
+</div>
+
+
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Adı</th>
+                <th scope="col" class="text-center">E-posta</th>
+                <th scope="col" class="text-center">İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var user in Model.Users)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td class="text-center">
+                       <a asp-route-id="@user.Id" asp-controller="Identity" asp-action="AccountDetails"> <button class="btn btn-success">Hesap Detayı</button></a>
+                       <a asp-route-id="@user.Id" asp-controller="Identity" asp-action="UserAddRole"> <button class="btn btn-success">Role Atama</button></a>
+                       <a asp-route-id="@user.Id" asp-controller="Identity" asp-action="AccountTransactions"> <button class="btn btn-success">Hesap Güncelle</button></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,92 @@
+@model IEnumerable<RealEstate.Entity.House>
+    <style>
+        .house-card {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        .house-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+        }
+    
+     
+        .house-info-list li:nth-child(odd) {
+            background-color: #f7f9fc; 
+        }
+    
+        .house-info-list li:nth-child(even) {
+            background-color: #ffffff; 
+        }
+    
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+    
+        .house-info-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 16px;
+            color: #555;
+        }
+    
+        .house-info-list li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+    
+        .house-card img {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    
+        .house-card img:hover {
+            filter: brightness(0.9);
+        }
+    
+       
+    
+            .house-card img {
+                max-width: 100%;
+                border-radius: 10px 10px 0 0;
+            }
+    
+            .card-body {
+                padding: 15px;
+            }
+        
+    </style>
+    
+    <div class="card" style="width: 70rem; margin: 20px auto; padding: 20px;">
+        <div class="card-header" style="font-size: 22px; background-color: transparent; border-bottom: 2px solid #ddd;">Onaylı Ve Yayında Olan Ev İlanları</div>
+        <div class="d-flex flex-wrap justify-content-start">
+            @foreach(var house in Model)
+            {
+                <a asp-controller="Admin" asp-action="HouseAdApprovalUp" asp-route-id="@house.HouseId" style="text-decoration: none; color: black; margin: 20px;">
+                    <div class="card house-card" style="width: 60rem; display: flex; flex-direction: row; align-items: center;">
+                        <div style="flex: 1;">
+                            <img src="@house.PromotionalPicture" alt="Tanıtım Resmi" style="width: 100%; height: auto; max-height: 15.6rem; object-fit: cover; margin-left: 2%;" />
+                        </div>
+    
+                        <div class="card-body" style="flex: 2; padding-left: 20px;">
+                            <div style="margin-top: -0.6rem; font-size: 28px;">
+                            <h4>İlan Başlığı</h4>
+                            <h5 class="card-title">@house.AdTitle</h5>
+                            <ul class="house-info-list">
+                                <li>İlçe: @house.County</li>
+                                <li>Konut Türü: @house.HouseType</li>
+                                <li>İlan Durumu: <p style="background-color: green; font-size: 22px;margin-top: 0.5rem;border-radius: 10px;padding-left: 3%;margin-left: -1%; color: #ddd;width: 30%;">Yayında</p></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </a>
+            }
+        </div>
+    </div>
+    

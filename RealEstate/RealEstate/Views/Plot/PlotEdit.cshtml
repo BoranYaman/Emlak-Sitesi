@@ -1,0 +1,225 @@
+@model RealEstate.ViewModels.Plot.PlotEditViewModel
+
+<h2 class="text-center mt-5">İlanı GÜncelle</h2>
+
+<style>
+    body {
+        font-size: 18px;
+    }
+
+    .form-label {
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+
+    .form-control,
+    .form-select {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .btn-primary {
+        padding: 10px 30px;
+        font-size: 1.2em;
+    }
+
+    .text-danger {
+        font-size: 0.9em;
+    }
+
+    .container {
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+</style>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">İlan Güncelle</h2>
+    <form asp-controller="Plot" asp-action="PlotEdit" method="post" enctype="multipart/form-data">
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <label asp-for="AdType" class="form-label">İlan Tipi</label>
+                <select asp-for="AdType" class="form-select" aria-label="İlan Tipi">
+                    <option disabled selected>İlan Tipi</option>
+                    <option value="Satılık">Satılık</option>
+                    <option value="Kiralık">Kiralık</option>
+                </select>
+                <span asp-validation-for="AdType" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="PlotType" class="form-label">Arsa Tipi</label>
+                <select asp-for="PlotType" class="form-select" aria-label="Arsa Tipi">
+                    <option disabled selected>Arsa Tipi</option>
+                    <option value="Tarla">Tarla</option>
+                    <option value="Arsa">Arsa</option>
+                </select>
+                <span asp-validation-for="PlotType" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <label asp-for="PlotPrice" class="form-label">Arsa Fiyatı</label>
+                <input asp-for="PlotPrice" type="text" class="form-control" placeholder="Fiyat giriniz">
+                <span asp-validation-for="PlotPrice" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="PlotTitle" class="form-label">İlan Başlığı</label>
+                <input asp-for="PlotTitle" type="text" class="form-control" placeholder="İlan Başlığı" maxlength="70">
+                <span class="form-text">İlan Başlığı En Fazla 70 Karakter Olmalıdır</span>
+                <span asp-validation-for="PlotTitle" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <label asp-for="M2" class="form-label">m²</label>
+                <input asp-for="M2" type="text" class="form-control" placeholder="m² giriniz">
+                <span asp-validation-for="M2" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="M2Price" class="form-label">m² Fiyatı</label>
+                <input asp-for="M2Price" type="text" class="form-control" placeholder="m² fiyatını giriniz">
+                <span asp-validation-for="M2Price" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <label asp-for="TitleDeedStatus" class="form-label">Tapu Durumu</label>
+                <select asp-for="TitleDeedStatus" class="form-select">
+                    <option value="Bireysel Tapu">Bireysel Tapu</option>
+                    <option value="Ortaklı Tapu">Ortaklı Tapu</option>
+                </select>
+                <span asp-validation-for="TitleDeedStatus" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label asp-for="CreditEligibility" class="form-label">Kredi Uygunluk</label>
+                <select asp-for="CreditEligibility" class="form-select" aria-label="Kredi Uygunluk">
+                    <option disabled selected>Kredi Uygunluk</option>
+                    <option value="Evet">Evet</option>
+                    <option value="Hayır">Hayır</option>
+                </select>
+                <span asp-validation-for="PlotType" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <label asp-for="IslandNumber" class="form-label">Ada Numarası</label>
+                <input asp-for="IslandNumber" type="text" class="form-control" placeholder="Ada numarasını giriniz">
+                <span asp-validation-for="IslandNumber" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="ParcelNumber" class="form-label">Parsel Numarası</label>
+                <input asp-for="ParcelNumber" type="text" class="form-control" placeholder="Parsel numarasını giriniz">
+                <span asp-validation-for="ParcelNumber" class="text-danger"></span>
+            </div>
+        </div>
+<div class="card">
+    <div class="card-body">
+        <div class="col-md-17">
+            <label asp-for="Explanation" class="form-label">Açıklama</label>
+            <textarea asp-for="Explanation" class="form-control" ></textarea>
+            <span asp-validation-for="Explanation" class="text-danger"></span>
+        </div>
+    </div>
+</div>
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <label asp-for="Country" class="form-label">Ülke</label>
+                <select asp-for="Country" class="form-select">
+                    <option disabled selected>Ülke</option>
+                    <option value="Türkiye">Türkiye</option>
+                </select>
+                <span asp-validation-for="Country" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-4">
+                <label asp-for="Province" class="form-label">İl</label>
+                <select asp-for="Province" class="form-select">
+                    <option disabled selected>İl</option>
+                    <option value="İstanbul">İstanbul</option>
+                </select>
+                <span asp-validation-for="Province" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-4">
+                <label asp-for="County" class="form-label">İlçe</label>
+                <select asp-for="County" class="form-select">
+                    <option disabled selected>İlçe</option>
+                    <option value="">İlçe Seçiniz</option>
+                    <option value="Adalar">Adalar</option>
+                    <option value="Arnavutköy">Arnavutköy</option>
+                    <option value="Ataşehir">Ataşehir</option>
+                    <option value="Avcılar">Avcılar</option>
+                    <option value="Bağcılar">Bağcılar</option>
+                    <option value="Bahçelievler">Bahçelievler</option>
+                    <option value="Bakırköy">Bakırköy</option>
+                    <option value="Başakşehir">Başakşehir</option>
+                    <option value="Bayrampaşa">Bayrampaşa</option>
+                    <option value="Beşiktaş">Beşiktaş</option>
+                    <option value="Beykoz">Beykoz</option>
+                    <option value="Beyoğlu">Beyoğlu</option>
+                    <option value="Büyükçekmece">Büyükçekmece</option>
+                    <option value="Çatalca">Çatalca</option>
+                    <option value="Esenler">Esenler</option>
+                    <option value="Esenyurt">Esenyurt</option>
+                    <option value="Eyüp">Eyüp</option>
+                    <option value="Fatih">Fatih</option>
+                    <option value="Gaziosmanpaşa">Gaziosmanpaşa</option>
+                    <option value="Güngören">Güngören</option>
+                    <option value="Kadıköy">Kadıköy</option>
+                    <option value="Kagithane">Kağıthane</option>
+                    <option value="Kartal">Kartal</option>
+                    <option value="Maltepe">Maltepe</option>
+                    <option value="Pendik">Pendik</option>
+                    <option value="Sancaktepe">Sancaktepe</option>
+                    <option value="Sarıyer">Sarıyer</option>
+                    <option value="Silivri">Silivri</option>
+                    <option value="Sultanbeyli">Sultanbeyli</option>
+                    <option value="Şile">Şile</option>
+                    <option value="Şişli">Şişli</option>
+                    <option value="Tuzla">Tuzla</option>
+                    <option value="Ümraniye">Ümraniye</option>
+                    <option value="Üsküdar">Üsküdar</option>
+                    <option value="Zeytinburnu">Zeytinburnu</option>
+                </select>
+                <span asp-validation-for="County" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <label asp-for="Neighborhood" class="form-label">Mahalle</label>
+                <input asp-for="Neighborhood" type="text" class="form-control" placeholder="Mahalle giriniz">
+                <span asp-validation-for="Neighborhood" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="Street" class="form-label">Sokak</label>
+                <input asp-for="Street" type="text" class="form-control" placeholder="Sokak giriniz">
+                <span asp-validation-for="Street" class="text-danger"></span>
+            </div>
+        </div>
+
+       
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">İlanı Güncelle</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/7.3.0/tinymce.min.js" integrity="sha512-RUZ2d69UiTI+LdjfDCxqJh5HfjmOcouct56utQNVRjr90Ea8uHQa+gCxvxDTC9fFvIGP+t4TDDJWNTRjlTRSgA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        tinymce.init({
+            selector: '#Explanation'
+        });
+    </script>
+}

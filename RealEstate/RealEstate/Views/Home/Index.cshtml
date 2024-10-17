@@ -1,0 +1,134 @@
+﻿@model RealEstate.ViewModels.RealEstateViewModel
+@{
+    ViewData["Title"] = "İstanbul Emlak";
+}
+<style>
+  body {
+      font-family: Helvetica, sans-serif;
+      background-color: #f8f9fa; 
+      margin: 0;
+  }
+
+  .card {
+      border: 1px solid #ddd; 
+      border-radius: 8px; 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+      transition: transform 0.2s; 
+  }
+
+  .card:hover {
+      transform: scale(1.05); 
+  }
+
+  .card-header {
+      font-size: 24px;
+      text-align: center;
+      font-weight: bold;
+      color: black; 
+      padding: 10px;
+      border-radius: 8px 8px 0 0; 
+  }
+
+  .house-card {
+      width: 18rem; 
+      margin: 1rem; 
+      display: inline-block; 
+      vertical-align: top; 
+  }
+
+  .card-body {
+      padding: 15px; 
+  }
+
+  img {
+      border-radius: 8px; 
+  }
+
+  .card-text {
+      font-size: 18px; 
+      font-weight: bold; 
+  }
+
+  .card p {
+      margin: 0.5rem 0; 
+  }
+</style>
+<div style="margin-left: -5%">
+<div style="margin-left: auto;margin-right: auto; display:flex; width: 90em;">
+<div class="card" style="width: 90rem; height: 49rem;  margin-top: 1%;">
+    <div class="card-header" style="text-align: center; font-size: 28px; padding: 20px 0; background-color: #f8f9fa; font-weight: bold;">
+        Yatırımınız Size Bir Tık Uzakta
+    </div>
+
+    <div class="card-body" style="display: flex; justify-content: space-between; align-items: center;">
+
+        <a asp-controller="Plot" asp-action="PlotList">
+            <div class="card" style="flex: 1; text-align: center; width: 40rem; margin-left: 5%; position: relative;">
+                <img style="width: 100%;" src="/img/indeximg/931047674a2b0592cb521f702b9566ee.jpg" alt="Açıklama">
+                <p style="position: absolute; margin-left:1%; margin-top: 1%; padding: 15px; font-size: 24px; color: white; background: rgba(0, 0, 0, 0.7); border-radius: 8px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); font-weight: bold;">
+                    Yarınların İçin <br> Bugün Çalışmaya <br> Başla
+                </p>
+            </div>
+        </a>
+
+        <a asp-controller="House" asp-action="HouseList">
+            <div class="card" style="flex: 1; text-align: center; width: 40rem; margin-left: -5%; position: relative;">
+                <img style="width: 100%;" src="/img/indeximg/pexels-photo-106399.jpeg" alt="Açıklama">
+                <p style="position: absolute; margin-left:1%; margin-top: 1%; padding: 15px; font-size: 24px; color: white; background: rgba(0, 0, 0, 0.7); border-radius: 8px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); font-weight: bold;">
+                    Yarınların İçin <br> Bugün Çalışmaya <br> Başla
+                </p>
+            </div>
+        </a>
+
+    </div>
+</div>
+
+</div>
+
+<div class="card" style="width: 90rem; margin: 20px auto; padding: 20px;">
+    <div class="card-header" style="font-size: 22px;">Yeni Evler</div>
+    <div class="d-flex flex-wrap justify-content-">
+        @foreach(var house in Model.HouseList)
+        {
+            <a  asp-controller="House" asp-action="HouseDetails" asp-route-id="@house.HouseId" style="text-decoration: none; color: black;">
+                <div class="house-card">
+                    <div class="card">
+                        <img src="@house.PromotionalPicture" alt="Tanıtım Resmi" style="max-width: 100%; height: 15rem;" />
+                        <div class="card-body">
+                            <p class="card-text">@house.AdTitle</p>
+                            <p>İlçe: @house.County</p>
+                            <p>Fiyat: @house.Price</p>
+                            <p>Oda Sayısı: @house.NumberOfRooms</p>
+                            <p>Net m2: @house.m2n</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        }
+    </div>
+</div>
+
+<div class="card" style="width: 90rem; margin: 20px auto; padding: 20px;">
+    <div class="card-header" style="font-size: 22px;">Yeni Arsalar</div>
+    <div class="d-flex flex-wrap justify-content-">
+        @foreach(var plot in Model.PlotList)
+        {
+            <a  asp-controller="Plot" asp-action="PlotDetails" asp-route-id="@plot.PlotId" style="text-decoration: none; color: black;">
+                <div class="house-card">
+                    <div class="card">
+                        <img src="~/plotimages/@plot.PromotionalPicture" alt="Tanıtım Resmi" style="width: 100%; height: auto; max-height: 15.6rem; object-fit: cover; margin-left: 2%;" />
+
+                        <div class="card-body">
+                            <p class="card-text">@plot.PlotTitle</p>
+                            <li>İlçe: @plot.County</li>
+                            <li>Fiyat: @plot.PlotPrice ₺</li>
+                            <li>Arsa Durumu: @plot.PlotType</li>
+                            <li>M²: @plot.M2</li>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        }
+    </div>
+</div>
+</div>

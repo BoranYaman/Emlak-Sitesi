@@ -1,0 +1,90 @@
+@model RealEstate.ViewModels.RealEstateViewModel
+
+<div class="card" style="margin-top: 1%;">
+    <div class="card-header">
+        <h3 style="text-align: center;margin-top: 0%;">@Model.HouseList.FirstOrDefault()?.AppUser.UserName Adlı Kişinin Diğer İlanları</h3>
+    </div>
+</div>
+
+
+<div class="container" style="margin-top: 5%;">
+    <h3 style="text-align: center;">Ev İlanları</h3>
+    <div class="row justify-content-center">
+       
+        @foreach (var house in Model.HouseList)
+        {
+         
+
+            <div class="col-md-5">
+                <div class="card" style="height: 37rem;">
+                    <img style="height: 18rem;" class="card-img-top" src="@house.PromotionalPicture" alt="İlan Resmi">
+                    <div class="card-body">
+                        @if(house.Active == "true")
+                        {
+                            <p style="background-color: green; color: aliceblue; border-radius: 10px; text-align: center; font-size: 22px;" class="card-text">İlan Yayında</p>
+                        }
+                        else if (house.Active == "newAd")
+                        {
+                            <p style="background-color: blue; color: aliceblue; border-radius: 10px; text-align: center; font-size: 22px;" class="card-text">Yeni İlan</p>
+                        }
+                        else if (house.Active == "false")
+                        {
+                            <p style="background-color: red; color: aliceblue; border-radius: 10px; text-align: center; font-size: 22px;" class="card-text">İlan Yayında Değil</p>
+                        }
+                        <p class="card-text">İlan Tipi: @house.AdType</p>
+                        <p class="card-text">Emlak Tipi: @house.HouseType</p>
+                        <p class="card-text">Fiyat: @house.Price</p>
+                        <p class="card-text">Oda Sayısı: @house.NumberOfRooms</p>
+                        <br>
+                        <a asp-controller="House" asp-action="HouseDetails" asp-route-id="@house.HouseId" style="text-decoration: none; color: black;">
+                            <button class="btn btn-success">Detay</button>
+                        </a>
+                     
+                    </div>
+                </div>
+            </div>
+
+        }
+
+       
+
+<div class="container" style="margin-top: 5%;">
+    <h3 style="text-align: center;">Arsa İlanları</h3>
+    <div class="row justify-content-center">
+       
+        @foreach (var plot in Model.PlotList)
+        {
+          
+
+            <div class="col-md-5">
+                <div class="card" style="height: 37rem;">
+                    <img style="height: 18rem;" class="card-img-top" src="~/plotimages/@plot.PromotionalPicture" alt="İlan Resmi">
+                    <div class="card-body">
+                        @if(plot.Active == "true")
+                        {
+                            <p style="background-color: green; color: aliceblue; border-radius: 10px; text-align: center; font-size: 22px;" class="card-text">İlan Yayında</p>
+                        }
+                        else if (plot.Active == "newAd")
+                        {
+                            <p style="background-color: blue; color: aliceblue; border-radius: 10px; text-align: center; font-size: 22px;" class="card-text">Yeni İlan</p>
+                        }
+                        else if (plot.Active == "false")
+                        {
+                            <p style="background-color: red; color: aliceblue; border-radius: 10px; text-align: center; font-size: 22px;" class="card-text">İlan Yayında Değil</p>
+                        }
+                        <p class="card-text">İlan Tipi: @plot.AdType</p>
+                        <p class="card-text">Arsa Tipi: @plot.PlotType</p>
+                        <p class="card-text">Fiyat: @plot.PlotPrice</p>
+                        <br>
+                        <a asp-controller="Plot" asp-action="PlotDetails" asp-route-id="@plot.PlotId" style="text-decoration: none; color: black;">
+                            <button class="btn btn-success">Detay</button>
+                        </a>
+                      
+                    </div>
+                </div>
+            </div>
+
+    
+        }
+    </div>
+</div>

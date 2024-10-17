@@ -1,0 +1,209 @@
+<style>
+    .image-gallery {
+        text-align: center;
+        margin: 20px 0;
+    }
+  
+    .main-image img {
+        width: 80%; 
+        max-height: 500px;
+        object-fit: cover; 
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: 1px solid #ccc; 
+    }
+  
+    .thumbnail-images {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+  
+    .thumbnail {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1px solid #ddd; 
+        transition: transform 0.2s ease;
+    }
+  
+    .thumbnail:hover {
+        transform: scale(1.05); 
+        border-color: #ddd;
+    }
+  
+    .card {
+        margin-bottom: 20px;
+        border: 1px solid #eaeaea; 
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); 
+    }
+  
+    .card-header {
+        background-color: #f5f5f5; 
+        border-bottom: 1px solid #ddd; 
+        text-align: center;
+        padding: 15px;
+    }
+  
+    .card-body {
+        padding: 20px;
+    }
+  
+    table {
+        width: 100%;
+        margin-top: 20px;
+    }
+  
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd; 
+    }
+  
+    th {
+        background-color: #f7f7f7; 
+        font-weight: bold;
+    }
+  
+    td {
+        background-color: #fff;
+    }
+  
+  </style>
+   <div class="cardheader" style="background-color: #ccc;border-radius: 10%;">
+    <h3 style="background-color: #ccc; text-align: center;border-radius: 10%;height: 4rem;padding-top: 1.3rem;margin-top: -0.5rem;">İlan Ön İzleme Sayfası</h3>
+  </div>
+
+  <div class="card" style="margin-top: 3%;">
+  <h1 style="text-align: center; margin-top: 1%;">@Model.Plot.PlotTitle</h2>
+    
+   
+</div>
+
+<div style="margin-top: 3%;">
+
+  
+  <div class="card" >
+    <div class="card-body">
+        <div class="image-gallery" style="margin-top: 1%;">
+            <div class="main-image">
+                <img id="bigImage" src="~/plotimages/@Model.Plot.PromotionalPicture" alt="Plot Image" />
+            </div>
+        </div>
+    </div>
+  </div>
+  
+  <div style="width: 75em; height: auto; margin-left: auto; margin-right: auto;">
+    @foreach (var img in Model.PlotImagess)
+    {
+        <img src="~/plotimages/@img.ImgUrl" alt="Plot Image" class="thumbnail" onclick="changeImage(this)" />
+    }
+  </div>
+  
+  <div class="card mb-4" style="margin-top: 5rem;">
+    <div class="card-header bg-light">
+        <h5 class="card-title text-center">İlanı Ekleyen Kişi Bilgileri</h5>
+    </div>
+    <div class="card-body" style="margin-top: 5%;">
+        <p><strong>Ad:</strong> @Model.Plot.AppUser.UserName</p>
+        <p><strong>Soyad:</strong> @Model.Plot.AppUser.LastName</p>
+        <p><strong>Telefon Numarası:</strong> @Model.Plot.AppUser.PhoneNumber</p>
+        <p><strong>E-posta:</strong> @Model.Plot.AppUser.Email</p>
+        <div class="d-flex justify-content-center mt-3">
+            <a href="@Url.Action("OtherAds", "Identity", new { userId = Model.Plot.AppUser.Id })" class="btn btn-outline-primary">Diğer İlanlar</a>
+        </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+        <h4 style="text-align: center;">İlan Açıklaması</h4>
+    </div>
+    <div class="card-body">
+        <p>@Html.Raw(Model.Plot.Explanation)</p>
+    </div>
+  </div>
+  
+  <div class="card" style="width: 50rem; margin-top: 3rem; margin-left: auto; margin-right: auto;">
+    <div class="card-header" style="text-align: center; font-size: 22px;">İlan Bilgileri</div>
+    <table class="table table-striped">
+        <tbody>
+            <tr>
+                <th scope="row">İlan Numarası</th>
+                <td>@Model.Plot.AdNumber</td>
+            </tr>
+            <tr>
+                <th scope="row">Ülke</th>
+                <td>@Model.Plot.PlotStatus</td>
+            </tr>
+            <tr>
+                <th scope="row">İl</th>
+                <td>@Model.Plot.Province</td>
+            </tr>
+            <tr>
+                <th scope="row">İlçe</th>
+                <td>@Model.Plot.County</td>
+            </tr>
+            <tr>
+                <th scope="row">Mahalle</th>
+                <td>@Model.Plot.Neighborhood</td>
+            </tr>
+            <tr>
+                <th scope="row">Sokak</th>
+                <td>@Model.Plot.Street</td>
+            </tr>
+            <tr>
+                <th scope="row">Emlak Tipi</th>
+                <td>@Model.Plot.AdType</td>
+            </tr>
+            <tr>
+                <th scope="row">Konut Tipi</th>
+                <td>@Model.Plot.PlotType</td>
+            </tr>
+            <tr>
+                <th scope="row">İlan Fiyatı</th>
+                <td>@Model.Plot.PlotPrice</td>
+            </tr>
+            <tr>
+                <th scope="row"> M2</th>
+                <td>@Model.Plot.M2 m2</td>
+            </tr>
+            <tr>
+                <th scope="row">M2 Fiyatı</th>
+                <td>@Model.Plot.M2Price</td>
+            </tr>
+            <tr>
+                <th scope="row">Ada Numarası</th>
+                <td>@Model.Plot.IslandNumber</td>
+            </tr>
+            <tr>
+                <th scope="row">Parsel Numarası</th>
+                <td>@Model.Plot.ParcelNumber</td>
+            </tr>
+            <tr>
+                <th scope="row">Kredi Uygunluk Durumu</th>
+                <td>@Model.Plot.CreditEligibility</td>
+            </tr>
+            <tr>
+                <th scope="row">Tapu Durumu</th>
+                <td>@Model.Plot.TitleDeedStatus</td>
+            </tr>
+           
+        </tbody>
+    </table>
+  </div>
+</div>
+<div class="card">
+    <div class="cardheader">
+        <a asp-controller="Admin" asp-action="PlotTransactionForm" asp-route-id="@Model.Plot.PlotId"><button class="btn btn-sucees">İşlem Sayfası</button></a>
+    </div>
+  </div>
+  
+  <script>
+    function changeImage(imgElement) {
+        var bigImage = document.getElementById("bigImage");
+        bigImage.src = imgElement.src; 
+    }
+  </script>
+  

@@ -1,0 +1,48 @@
+@{
+    ViewData["Title"] = "İlan Yönetim Paneli";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">İlan Yönetim Paneli</h1>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Ev İlan Onayla</h5>
+                    <p class="card-text">Bekleyen ev ilanlarını buradan onaylayabilirsiniz.</p>
+                    <a asp-controller="Admin" asp-action="HouseAdApproval" class="btn btn-primary">Ev İlanlarını Gör</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Onaylanmış Ev İlanları</h5>
+                    <p class="card-text">Onaylanmış tüm ev ilanlarını buradan görüntüleyebilirsiniz.</p>
+                    <a asp-controller="Admin" asp-action="ApprovedHouse" class="btn btn-success">Ev İlanlarını Gör</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body"> 
+                    <h5 class="card-title">Arsa İlan Onayla</h5>
+                    <p class="card-text">Bekleyen arsa ilanlarını buradan onaylayabilirsiniz.</p>
+                    <a asp-controlelr="Admin" asp-action="PlotAdApproval" class="btn btn-primary">Arsa İlanlarını Gör</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Onaylanmış Arsa İlanları</h5>
+                    <p class="card-text">Onaylanmış tüm arsa ilanlarını buradan görüntüleyebilirsiniz.</p>
+                    <a asp-controller="Admin" asp-action="ApprovedPlot" class="btn btn-success">Arsa İlanlarını Gör</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

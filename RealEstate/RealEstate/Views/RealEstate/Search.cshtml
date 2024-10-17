@@ -1,0 +1,58 @@
+@model HousePlotViewModel
+
+<h2 style="margin-top: 3%;">Arama Sonuçları</h2>
+
+@if (Model.Houses.Any() || Model.Plots.Any())
+{
+        <div style="margin-left: -1.4%;" class="d-flex flex-wrap justify-content-start">
+            @foreach(var house in Model.Houses)
+            {
+                <a asp-controller="House" asp-action="HouseDetails" asp-route-id="@house.HouseId" style="text-decoration: none; color: black; margin: 20px;">
+                    <div class="card house-card" style="width: 60rem; display: flex; flex-direction: row; align-items: center;">
+                        <div style="flex: 1;">
+                            <img src="@house.PromotionalPicture" alt="Tanıtım Resmi" style="width: 100%; height: auto; max-height: 15.6rem; object-fit: cover; margin-left: 2%;" />
+                        </div>
+    
+                        <div class="card-body" style="flex: 1; padding-left: 20px;">
+                            <h5 class="card-title">@house.AdTitle</h5>
+                            <ul class="house-info-list">
+                                <li>İlçe: @house.County</li>
+                                <li>Fiyat: @house.Price ₺</li>
+                                <li>Oda Sayısı: @house.NumberOfRooms</li>
+                                <li>Net m²: @house.m2n</li>
+                                <li>Otopark: @house.CarPark</li>
+                                <li>İlan Türü: @house.AdType</li>
+                                <li>Bina Yaşı: @house.BuildingHistory</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+            }
+        </div>
+    @foreach (var plot in Model.Plots)
+    {
+        <a asp-controller="Plot" asp-action="PlotDetails" asp-route-id="@plot.PlotId" style="text-decoration: none; color: black; margin: 20px;">
+            <div class="card house-card" style="width: 60rem; display: flex; flex-direction: row; align-items: center;">
+                <div style="flex: 1;">
+                    <img src="~/plotimages/@plot.PromotionalPicture" alt="Tanıtım Resmi" style="width: 100%; height: auto; max-height: 15.6rem; object-fit: cover; margin-left: 2%;" />
+
+
+                </div>
+
+                <div class="card-body" style="flex: 1; padding-left: 20px;">
+                    <h5 class="card-title">@plot.PlotTitle</h5>
+                    <ul class="house-info-list">
+                        <li>İlçe: @plot.County</li>
+                        <li>Fiyat: @plot.PlotPrice ₺</li>
+                        <li>Arsa Durumu: @plot.PlotType</li>
+                        <li>M²: @plot.M2</li>
+                    </ul>
+                </div>
+            </div>
+        </a>
+    }
+}
+else
+{
+    <p>Aradığınız kriterlere uygun ilan bulunamadı.</p>
+}

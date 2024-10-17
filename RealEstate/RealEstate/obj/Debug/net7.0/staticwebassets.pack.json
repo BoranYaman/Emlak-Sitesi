@@ -1,0 +1,477 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RealEstate.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RealEstate.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\1000_F_570056761_XCfUT0PzG64pSdys77NPgeCUgH8aONtw.jpg",
+      "PackagePath": "staticwebassets\\images\\1000_F_570056761_XCfUT0PzG64pSdys77NPgeCUgH8aONtw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\1068589.jpg",
+      "PackagePath": "staticwebassets\\images\\1068589.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\1629715474-059008000.jpeg",
+      "PackagePath": "staticwebassets\\images\\1629715474-059008000.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\341714.jpg",
+      "PackagePath": "staticwebassets\\images\\341714.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\3ixksox.jpg",
+      "PackagePath": "staticwebassets\\images\\3ixksox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\435117.jpg",
+      "PackagePath": "staticwebassets\\images\\435117.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\Iskandinav-kaya-kurulu-geri-çekilebilir-dikdörtgen-474291_upload.jpg",
+      "PackagePath": "staticwebassets\\images\\Iskandinav-kaya-kurulu-geri-çekilebilir-dikdörtgen-474291_upload.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\ac2d785c02afa52c58ce8f4582258717.jpg",
+      "PackagePath": "staticwebassets\\images\\ac2d785c02afa52c58ce8f4582258717.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\banyo9.jpg",
+      "PackagePath": "staticwebassets\\images\\banyo9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\d4lzuad.jpg",
+      "PackagePath": "staticwebassets\\images\\d4lzuad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\desktop-wallpaper-interior-design-room-house-home-apartment-condo-274-and-mobile-backgrounds-luxury-apartment.jpg",
+      "PackagePath": "staticwebassets\\images\\desktop-wallpaper-interior-design-room-house-home-apartment-condo-274-and-mobile-backgrounds-luxury-apartment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\e6c5b1892270f33d8fac5ee19ef8dba9.jpg",
+      "PackagePath": "staticwebassets\\images\\e6c5b1892270f33d8fac5ee19ef8dba9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\evo-ahsap-yapilar-dubleks-ahsap-evler-projesi-1.jpg",
+      "PackagePath": "staticwebassets\\images\\evo-ahsap-yapilar-dubleks-ahsap-evler-projesi-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\images (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\images (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\images.jpeg",
+      "PackagePath": "staticwebassets\\images\\images.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\indir (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\indir (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\indir (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\indir (2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\indir.jpeg",
+      "PackagePath": "staticwebassets\\images\\indir.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\iskele-iskele-bogaz-satilik-daire-202405001498420005170438L8AE9S9.jpg",
+      "PackagePath": "staticwebassets\\images\\iskele-iskele-bogaz-satilik-daire-202405001498420005170438L8AE9S9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\iskele-long-beach-satilik-daire-202406001560510005453064QADZ12K.jpg",
+      "PackagePath": "staticwebassets\\images\\iskele-long-beach-satilik-daire-202406001560510005453064QADZ12K.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\istockphoto-1304826235-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1304826235-612x612.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\kitchen-loft-strict-style-interior-design.jpg",
+      "PackagePath": "staticwebassets\\images\\kitchen-loft-strict-style-interior-design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\kuhnya-loft-dizajn.jpg",
+      "PackagePath": "staticwebassets\\images\\kuhnya-loft-dizajn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\lefkosa-yenisehir-satilik-daire-202408001604570005610064OD8XTW9.jpg",
+      "PackagePath": "staticwebassets\\images\\lefkosa-yenisehir-satilik-daire-202408001604570005610064OD8XTW9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\lofty-yatak-odasi-takimi-tab-01.jpg",
+      "PackagePath": "staticwebassets\\images\\lofty-yatak-odasi-takimi-tab-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\manori-mutfakmasasandalyetakimi-tab-01.jpg",
+      "PackagePath": "staticwebassets\\images\\manori-mutfakmasasandalyetakimi-tab-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\orlando-yatak-odasi-takimi-20.jpg",
+      "PackagePath": "staticwebassets\\images\\orlando-yatak-odasi-takimi-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\pexels-jworks1124-342800.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-jworks1124-342800.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\photo-1556911220-bff31c812dba.jpeg",
+      "PackagePath": "staticwebassets\\images\\photo-1556911220-bff31c812dba.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\salda-surgulu-tv-li-yatak-odasi-2021-yatak-odasi-modelleri-evtalya-inegol-mobilya-3.jpg",
+      "PackagePath": "staticwebassets\\images\\salda-surgulu-tv-li-yatak-odasi-2021-yatak-odasi-modelleri-evtalya-inegol-mobilya-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\images\\thumb-1920-740968.jpg",
+      "PackagePath": "staticwebassets\\images\\thumb-1920-740968.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\img\\Favicon\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\img\\Favicon\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\img\\Logo\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\img\\indeximg\\931047674a2b0592cb521f702b9566ee.jpg",
+      "PackagePath": "staticwebassets\\img\\indeximg\\931047674a2b0592cb521f702b9566ee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\img\\indeximg\\pexels-photo-106399.jpeg",
+      "PackagePath": "staticwebassets\\img\\indeximg\\pexels-photo-106399.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\1988849.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\1988849.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\arsa-alip-ev-yapmak-mi-avantajli-1.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\arsa-alip-ev-yapmak-mi-avantajli-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\arsa-alirken-dikkat-edilmesi-gerekenler-3.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\arsa-alirken-dikkat-edilmesi-gerekenler-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\arsa-sorgulama-nasil-yapilir.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\arsa-sorgulama-nasil-yapilir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\arsa.5-780x520.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\arsa.5-780x520.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\ifrali-arsa-1015x698.png",
+      "PackagePath": "staticwebassets\\plotimages\\ifrali-arsa-1015x698.png"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\konut-imarli-arsa-nedir.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\konut-imarli-arsa-nedir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\kuhnya-loft-dizajn.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\kuhnya-loft-dizajn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\lefkosa-yenisehir-satilik-daire-202408001604570005610064OD8XTW9.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\lefkosa-yenisehir-satilik-daire-202408001604570005610064OD8XTW9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\lofty-yatak-odasi-takimi-tab-01.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\lofty-yatak-odasi-takimi-tab-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\manori-mutfakmasasandalyetakimi-tab-01.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\manori-mutfakmasasandalyetakimi-tab-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\orlando-yatak-odasi-takimi-20.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\orlando-yatak-odasi-takimi-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\pexels-jworks1124-342800.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\pexels-jworks1124-342800.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\photo-1556911220-bff31c812dba.jpeg",
+      "PackagePath": "staticwebassets\\plotimages\\photo-1556911220-bff31c812dba.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\salda-surgulu-tv-li-yatak-odasi-2021-yatak-odasi-modelleri-evtalya-inegol-mobilya-3.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\salda-surgulu-tv-li-yatak-odasi-2021-yatak-odasi-modelleri-evtalya-inegol-mobilya-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\tarla-kira-sozlesmesi1439886734-1-m.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\tarla-kira-sozlesmesi1439886734-1-m.jpg"
+    },
+    {
+      "Id": "C:\\Users\\boran\\OneDrive\\Masaüstü\\Boran Yaman Belgeler\\Web Programlama\\Asp.net-7\\RealEstate\\RealEstate\\wwwroot\\plotimages\\thumb-1920-740968.jpg",
+      "PackagePath": "staticwebassets\\plotimages\\thumb-1920-740968.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RealEstate.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RealEstate.props",
+      "PackagePath": "build\\RealEstate.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RealEstate.props",
+      "PackagePath": "buildMultiTargeting\\RealEstate.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RealEstate.props",
+      "PackagePath": "buildTransitive\\RealEstate.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

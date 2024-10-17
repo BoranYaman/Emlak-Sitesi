@@ -1,0 +1,219 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RealEstate
+build_property.RootNamespace = RealEstate
+build_property.ProjectDir = C:\Users\boran\OneDrive\Masaüstü\Boran Yaman Belgeler\Web Programlama\Asp.net-7\RealEstate\RealEstate\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\boran\OneDrive\Masaüstü\Boran Yaman Belgeler\Web Programlama\Asp.net-7\RealEstate\RealEstate
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Admin/AdminAdControlPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5BZENvbnRyb2xQYW5lbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Admin/ApprovedHouse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXBwcm92ZWRIb3VzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Admin/ApprovedPlot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXBwcm92ZWRQbG90LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Admin/HomeTransactionForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG9tZVRyYW5zYWN0aW9uRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Admin/HouseAdApproval.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG91c2VBZEFwcHJvdmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Admin/HouseAdApprovalUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG91c2VBZEFwcHJvdmFsVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Admin/PlotAdApproval.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGxvdEFkQXBwcm92YWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Admin/PlotAdApprovalUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGxvdEFkQXBwcm92YWxVcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Admin/PlotTransactionForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGxvdFRyYW5zYWN0aW9uRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Ads/MyAds.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRzXE15QWRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Error/AdsError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcQWRzRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Error/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Error/StatusError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcU3RhdHVzRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Home/AdForwarding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZEZvcndhcmRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/House/HouseAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcSG91c2VBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/House/HouseDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcSG91c2VEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/House/HouseEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcSG91c2VFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/House/HouseList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcSG91c2VMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/AccountDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcQWNjb3VudERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/AccountTransactions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcQWNjb3VudFRyYW5zYWN0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcQ29uZmlybUVtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/LoginRedirect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcTG9naW5SZWRpcmVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/MyAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcTXlBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/MyAd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcTXlBZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/MyAdDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcTXlBZERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/MyPlotAdDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcTXlQbG90QWREZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/OtherAds.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcT3RoZXJBZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/UserAddRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcVXNlckFkZFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Identity/UserOperations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcVXNlck9wZXJhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Plot/PlotAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxvdFxQbG90QWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Plot/PlotDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxvdFxQbG90RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Plot/PlotEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxvdFxQbG90RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Plot/PlotList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxvdFxQbG90TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/RealEstate/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Role/RoleCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSb2xlQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Role/RoleDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSb2xlRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Role/RoleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSb2xlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Role/RoleOperations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSb2xlT3BlcmF0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Role/RoleUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSb2xlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Shared/_ExecutiveLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FeGVjdXRpdmVMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Shared/_IdentityLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JZGVudGl0eUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/boran/OneDrive/Masaüstü/Boran Yaman Belgeler/Web Programlama/Asp.net-7/RealEstate/RealEstate/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-38w4zr4b1g

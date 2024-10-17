@@ -1,0 +1,28 @@
+@model RealEstate.ViewModels.Role.RoleDetailsViewModel
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Rol ve Kullanıcı Listesi</h2>
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Rol Adı</th>
+                <th scope="col">Kullanıcılar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.Role.Id</td>
+                <td>@Model.Role.Name</td>
+                <td>
+                    <ul>
+                        @foreach (var user in Model.Users)
+                        {
+                            <li>@user.UserName</li>
+                        }
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

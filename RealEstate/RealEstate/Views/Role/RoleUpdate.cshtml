@@ -1,0 +1,29 @@
+
+@{
+    ViewData["Title"] = "Role Ekleme";
+  }
+  
+  @model AppRole
+  <div class="container mt-5">
+      <div class="row justify-content-center">
+          <div class="col-md-6">
+              <div class="card">
+                  <div class="card-header bg-primary text-white">
+                      <h4 class="text-center">Yeni Rol Ekle</h4>
+                  </div>
+                  <div class="card-body">
+                      <form asp-controller="Role" as-action="RoleUpdate" method="post">
+                          <div class="mb-3">
+                              <label asp-for="Name" class="form-label">Rol İsmi</label>
+                              <input asp-for="Name" type="text" class="form-control"   placeholder="Rol ismini girin" required>
+                          </div>
+                          <div class="d-grid">
+                              <button type="submit" class="btn btn-success">Rol Ekle</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  

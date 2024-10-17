@@ -1,0 +1,112 @@
+@model RealEstate.ViewModels.User.UserCreateViewModel
+@{
+  ViewData["Title"] = "Kayıt Ol";
+}
+@{
+  Layout = "~/Views/Shared/_IdentityLayout.cshtml";
+}
+
+<section class="bg-Success py-3 py-md-5 py-xl-8">
+  <div class="container">
+    <div class="row gy-4 align-items-center">
+      <div class="col-12 col-md-6 col-xl-7">
+        <div class="d-flex justify-content-center text-bg-primary">
+          <div style="margin-top: -15em;" class="col-12 col-xl-9">
+            <img class="img-fluid rounded mb-4 " loading="lazy" src="/img/Logo/Logo.png" width="1100em" height="80" alt="BootstrapBrain Logo">
+            <hr class="border-primary-subtle mb-4">
+            <h2 class="h1 mb-4">Yarınlarına Değer Kat.</h2>
+            <p class="lead mb-5 ">Bugün kayıt ol, gelecekte güvenle yaşa!.</p>
+            <div class="text-endx">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-grip-horizontal" viewBox="0 0 16 16">
+                <path d="M2 8a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-5">
+        <div class="card border-0 rounded-4">
+          <div class="card-body p-3 p-md-4 p-xl-5">
+            <div class="row">
+              <div class="col-12">
+                <div class="mb-4">
+                  <h2 class="h3">Kayıt Ol</h2>
+                  <h3 class="fs-6 fw-normal text-secondary m-0">Lütfen kayıt için bilgilerinizi girin</h3>
+                </div>
+              </div>
+            </div>
+            <form asp-action="Register" method="post">
+              <div class="row gy-3 overflow-hidden">
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input asp-for="UserName" type="text" class="form-control">
+                    <label asp-for="UserName" class="form-label">Kullanıcı Adı</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input asp-for="LastName" type="text" class="form-control">
+                    <label asp-for="LastName" class="form-label">Kullanıcı Soyadı</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input asp-for="Email" type="email" class="form-control">
+                    <label asp-for="Email" class="form-label">Mail Adresi</label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input asp-for="PhoneNumber" class="form-control">
+                    <label asp-for="PhoneNumber" class="form-label">Telefon Numarası</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input asp-for="Address" class="form-control">
+                    <label asp-for="Address" class="form-label">Ev Adresi</label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input asp-for="Password" type="password" class="form-control">
+                    <label asp-for="Password" class="form-label">Parola</label>
+                  </div>
+                </div>
+
+            
+
+                <div class="container mt-5">
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" name="iAgree" id="iAgree" required>
+                      <a href="#!" class="link-primary text-decoration-none" data-bs-toggle="modal" data-bs-target="#termsModal">Şartlar ve koşulları</a>
+                      <label class="form-check-label text-secondary" for="iAgree">
+                        Kabul Ediyorum
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-lg" type="submit">Kayıt</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="row">
+              <div class="col-12">
+                <div class="d-flex gap-2 gap-md-4 flex-column flex-md-row justify-content-md-end mt-4">
+                  <p class="m-0 text-secondary text-center">Hesabın Var Mı <a asp-controller="Identity" asp-action="Login" class="link-primary text-decoration-none">Giriş</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

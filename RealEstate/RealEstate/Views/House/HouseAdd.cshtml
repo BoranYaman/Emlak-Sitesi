@@ -1,0 +1,269 @@
+@model RealEstate.ViewModels.Housee.HouseViewModel
+<style>
+    body {
+        font-size: 18px;
+    }
+</style>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">İlan Ekleme</h2>
+    
+    <form asp-controller="House" asp-action="HouseAdd" method="post" enctype="multipart/form-data">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="AdType" class="form-label">İlan Tipi</label>
+                <select asp-for="AdType" class="form-select" aria-label="İlan Tipi">
+                  <option disabled selected>İlan Tipi</option>
+                    <option value="Satılık">Satılık</option>
+                    <option value="Kiralık">Kiralık</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="HouseType" class="form-label">Ev Tipi</label>
+                <select asp-for="HouseType" class="form-select" aria-label="Ev Tipi">
+                    <option disabled selected>Ev Tipi</option>
+                    <option value="Daire">Daire</option>
+                    <option value="Villa">Villa</option>
+                    <option value="Ofis">Ofis</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label asp-for="Price" class="form-label">Fiyat</label>
+                <input asp-for="Price" type="text" class="form-control" placeholder="Fiyat giriniz">
+
+            </div>
+            <div class="col-md-6">
+                <label for="AdTitle" class="form-label">İlan Başlığı</label>
+                <input type="text" asp-for="AdTitle" class="form-control" placeholder="İlan Başlığı" maxlength="70">
+                <span class="form-text">İlan Başlığı En Fazla 70 Karakter Olmalıdır</span>
+
+            </div>
+        
+            <div class="col-md-6">
+                <label for="m2b" class="form-label">Brüt m²</label>
+                <input type="text" asp-for="m2b" class="form-control" placeholder="Brüt m² giriniz">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="m2n" class="form-label">Net m²</label>
+                <input type="text" asp-for="m2n" class="form-control" placeholder="Net m² giriniz">
+            </div>
+            <div class="col-md-6">
+                <label for="NumberOfRooms" class="form-label">Oda Sayısı</label>
+                <select asp-for="NumberOfRooms" class="form-select" aria-label="Oda Sayısı">
+              
+                    <option disabled selected>Oda Sayısı</option>
+                    <option value="1+0">1+0</option>
+                    <option value="1+1">1+1</option>
+                    <option value="2+0">2+0</option>
+                    <option value="2+1">2+1</option>
+                    <option value="2+2">2+2</option>
+                    <option value="3+1">3+1</option>
+                    <option value="3+2">3+2</option>
+                    <option value="4+">4+1</option>
+                    <option value="4+2">4+2</option>
+                    <option value="5+1">5+1</option>
+                    <option value="5+2">5+2</option>
+                    <option value="6+1">6+1</option>
+                    <option value="6+2">6+2</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="BuildingHistory" class="form-label">Bina Yaşı</label>
+                <select asp-for="BuildingHistory" class="form-select" aria-label="Bina Yaşı">
+                   
+                    <option disabled selected>Bina Yaşı</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6-10">6-10</option>
+                    <option value="10-15">10-15</option>
+                    <option value="15-20">15-20</option>
+                    <option value="20-25">20-25</option>
+                    <option value="30-3">30-35</option>
+                    <option value="35 ve üstü">35 ve üstü</option>
+                </select>
+
+
+
+            </div>
+            <div class="col-md-6">
+                <label for="NumberOfFloors" class="form-label">Kat Sayısı</label>
+                <select asp-for="NumberOfFloors" class="form-select" aria-label="Bina Kat Sayısı">
+                        @for (int i = 1; i <= 60; i++)
+                        {
+                            <option value="@i">@i</option>
+                        }
+                    </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="Floor" class="form-label">Bulunduğu Kat</label>
+                <select asp-for="Floor" class="form-select" aria-label="Bina Kat Sayısı">
+                        @for (int i = 1; i <= 60; i++)
+                        {
+                            <option value="@i">@i</option>
+                        }
+                    </select>
+                   
+            </div>
+            <div class="col-md-6">
+                <label for="Heating" class="form-label">Isıtma</label>
+                <select asp-for="Heating" class="form-select" aria-label="Isıtma Tipi">
+                    
+                    <option disabled selected>Isıtma Tipi</option>
+                    <option value="Doğalgaz">Doğalgaz</option>
+                    <option value="Merkezi">Merkezi</option>
+                    <option value="Yerden Isıtma">Yerden Isıtma</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="Elevator" class="form-label">Asansör</label>
+                <select asp-for="Elevator" class="form-select">
+                    <option value="Evet">Evet</option>
+                    <option value="Hayır">Hayır</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="CarPark" class="form-label">Otopark</label>
+                <select asp-for="CarPark" class="form-select">
+                    <option value="Evet">Evet</option>
+                    <option value="Hayır">Hayır</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="Dues" class="form-label">Aidat</label>
+                <input type="text" asp-for="Dues" class="form-control" placeholder="Aidat miktarı giriniz">
+            </div>
+            <br-></br->
+            <br-></br->
+            <div class="col-md-17">
+                <label asp-for="Explanation" class="form-label">Açıklama</label>
+                <textarea asp-for="Explanation" class="form-control" ></textarea>
+                <span asp-validation-for="Explanation" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label for="Country" class="form-label">Ülke</label>
+                <select asp-for="Country" class="form-select">
+                    <option disabled selected>Ülke</option>
+                    <option value="Türkiye">Türkiye</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="Province" class="form-label">İl</label>
+                <select asp-for="Province" class="form-select">
+                    <option disabled selected>il</option>
+                    <option value="İstanbul">İstanbul</option>
+                </select>
+              
+            </div>
+            <div class="col-md-4">
+                <label for="County" class="form-label">İlçe</label>
+                <select asp-for="County" class="form-select">
+                    <option disabled selected>İlçe</option>
+                    <option value="">İlçe Seçiniz</option>
+                    <option value="Adalar">Adalar</option>
+                    <option value="Arnavutköy">Arnavutköy</option>
+                    <option value="Ataşehir">Ataşehir</option>
+                    <option value="Avcılar">Avcılar</option>
+                    <option value="Bağcılar">Bağcılar</option>
+                    <option value="Bahçelievler">Bahçelievler</option>
+                    <option value="Bakırköy">Bakırköy</option>
+                    <option value="Başakşehir">Başakşehir</option>
+                    <option value="Bayrampaşa">Bayrampaşa</option>
+                    <option value="Beşiktaş">Beşiktaş</option>
+                    <option value="Beykoz">Beykoz</option>
+                    <option value="Beyoğlu">Beyoğlu</option>
+                    <option value="Büyükçekmece">Büyükçekmece</option>
+                    <option value="Çatalca">Çatalca</option>
+                    <option value="Esenler">Esenler</option>
+                    <option value="Esenyurt">Esenyurt</option>
+                    <option value="Eyüp">Eyüp</option>
+                    <option value="Fatih">Fatih</option>
+                    <option value="Gaziosmanpaşa">Gaziosmanpaşa</option>
+                    <option value="Güngören">Güngören</option>
+                    <option value="Kadıköy">Kadıköy</option>
+                    <option value="Kagithane">Kağıthane</option>
+                    <option value="Kartal">Kartal</option>
+                    <option value="Maltepe">Maltepe</option>
+                    <option value="Pendik">Pendik</option>
+                    <option value="Sancaktepe">Sancaktepe</option>
+                    <option value="Sarıyer">Sarıyer</option>
+                    <option value="Silivri">Silivri</option>
+                    <option value="Sultanbeyli">Sultanbeyli</option>
+                    <option value="Şile">Şile</option>
+                    <option value="Şişli">Şişli</option>
+                    <option value="Tuzla">Tuzla</option>
+                    <option value="Ümraniye">Ümraniye</option>
+                    <option value="Üsküdar">Üsküdar</option>
+                    <option value="Zeytinburnu">Zeytinburnu</option>
+                </select>
+           
+
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="Neighborhood" class="form-label">Mahalle</label>
+                <input type="text" asp-for="Neighborhood" class="form-control" placeholder="Mahalle giriniz">
+                <label for="Neighborhood" class="form-label">Lütfen Mahalleyi bilgisini Kendiniz Girin</label>
+
+            </div>
+            <div class="col-md-6">
+                <label for="Street" class="form-label">Sokak</label>
+                <input type="text" asp-for="Street" class="form-control" placeholder="Sokak giriniz">
+                <label for="Neighborhood" class="form-label">Lütfen Sokak Bilgisini Kendiniz Girin</label>
+
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="PromotionalPicture" class="form-label">Tanıtım Resmi</label>
+            <input asp-for="PromotionalPicture" type="file" class="form-control">
+        </div>
+    
+        <div class="mb-3">
+            <label asp-for="Images" class="form-label">Resimler</label>
+            <input asp-for="Images" type="file" class="form-control" multiple>
+        </div>
+    
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">İlanı Kaydet</button>
+        </div>
+        <br>
+        <br><br><br><br><br>
+     
+    </form>
+</div>
+
+
+
+@section Scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/7.3.0/tinymce.min.js" integrity="sha512-RUZ2d69UiTI+LdjfDCxqJh5HfjmOcouct56utQNVRjr90Ea8uHQa+gCxvxDTC9fFvIGP+t4TDDJWNTRV48tBpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        tinymce.init({
+            selector: '#Explanation'
+        });
+    </script>
+}

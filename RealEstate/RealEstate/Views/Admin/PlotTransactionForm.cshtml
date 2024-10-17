@@ -1,0 +1,50 @@
+@model RealEstate.ViewModels.Plot.PlotEditViewModel
+<div style="margin-top: 5rem;">
+<form asp-controller="Admin" asp-action="PlotTransactionForm" method="post">
+    <div class="card">
+        <div class="card-header" style="text-align: center;">
+            <h4 style="font-size: 26px;">Lütfen İşlem Yapınız</h4>
+        </div>
+        <div class="form">
+            <div class="mb-3">
+                <label  asp-for="Active" class="form-label">Lütfen Seçim Yapın</label>
+                <select asp-for="Active" class="form-select" id="approvalStatus" onchange="toggleTextarea()">
+                    <option value="true">Onaylandı</option>
+                    <option value="false">Red Edildi</option>
+                </select>
+            </div>
+
+            <div class="mb-3" id="adStatusDiv" style="display:none; height: 30rem;">
+                <label asp-for="PlotStatus" class="form-label">Red Nedeni</label>
+                <textarea style="height: 90%;" asp-for="PlotStatus" name="AdStatus" class="form-control" id="adStatus"></textarea>
+                <span asp-validation-for="PlotStatus" class="text-danger"></span>
+            </div>
+
+            <div >
+                <button   type="submit" class="btn btn-primary">Güncelle</button>
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+<script>
+    
+    window.onload = function() {
+        toggleTextarea(); 
+    };
+
+    function toggleTextarea() {
+        var approvalStatus = document.getElementById("approvalStatus").value;
+        var adStatusDiv = document.getElementById("adStatusDiv");
+        var adStatus = document.getElementById("adStatus");
+
+        if (approvalStatus === "false") {
+            adStatusDiv.style.display = "block"; 
+            adStatus.disabled = false;
+        } else {
+            adStatusDiv.style.display = "none";
+            adStatus.disabled = true;
+            adStatus.value = ''; 
+        }
+    }
+</script>

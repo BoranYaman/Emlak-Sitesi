@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Kayıt Ol";
+  }
+  @{
+    Layout = "~/Views/Shared/_IdentityLayout.cshtml";
+  }
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="text-center">
+        <h1 class="display-4 text-danger">403 - Yetkisiz İşlem</h1>
+        <p class="lead mt-4">Hesabınız Yönetici Tarafından Kapatılmıştır. Lütfen yetkilinizle iletişime geçin.</p>
+       <button class="btn btn-danger"> <a asp-controller="Identity" asp-action="Logout" class="nav-link">Çıkış</a></button>
+    </div>
+</div>

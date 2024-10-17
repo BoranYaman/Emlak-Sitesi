@@ -1,0 +1,72 @@
+@model RealEstate.ViewModels.User.UserEditViewModel
+
+<style>
+    .form-section {
+        font-size: 22px;
+    }
+    .input {
+        font-size: 22px;
+    }
+    .centered {
+        text-align: center;
+    }
+</style>
+
+<form asp-action="AccountTransactions" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="card mt-4 form-section">
+        <h2 class="card-header centered">Hesap Bilgilerim</h2>
+        <div style="width: 35em; margin: 3em auto; text-align: center;">
+          
+            <div class="mb-3">
+                <label asp-for="UserName" class="form-label">Kullanıcı Adı</label>
+                <input asp-for="UserName" class="form-control centered" readonly>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="LastName" class="form-label">Kullanıcı Soyadı</label>
+                <input asp-for="LastName" class="form-control centered" readonly>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">Kullanıcı Soyadı</label>
+                <input asp-for="Email" class="form-control centered" readonly>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="accountStatus">Yeni Hesap Durumu</label>
+                <select asp-for="AccountStatus" id="accountStatus" class="form-select centered" onchange="toggleText()">
+                    <option value="">Hesap Durumu Seçiniz</option>
+                    <option value="Açık">Hesabı Aç</option>
+                    <option value="Kapalı">Hesabı Kapat</option>
+                </select>
+              </div>
+
+            <div class="card mt-3" id="closedMessage" style="display: none;">
+                <div class="card-header">Kapatma Nedeni</div>
+                <div class="card-body">
+                    <textarea asp-for="ReasonForObstacle" class="form-control" rows="3"></textarea>
+                </div>
+            </div>
+          
+            <button style="margin-top: 3%;" class="btn btn-primary" type="submit">Kaydet</button>
+        </div>
+    </div>
+</form>
+<script>
+    function toggleText() {
+        var status = document.getElementById("accountStatus").value;
+        var closedMessage = document.getElementById("closedMessage");
+        var openMessage = document.getElementById("openMessage");
+
+        if (status === "Kapalı") {
+            closedMessage.style.display = "block";  
+            openMessage.style.display = "none";    
+        } else if (status === "Açık") {
+            openMessage.style.display = "block";    
+            closedMessage.style.display = "none";   
+        } else {
+            closedMessage.style.display = "none";  
+            openMessage.style.display = "none";
+        }
+    }
+</script>
